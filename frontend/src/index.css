@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form,
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+form>div {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 7px 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background-color: #da4040;
+    color: white;
+    padding: 7px 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.likeButton  {
+    all: initial;
+    cursor: pointer;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-top: 1px  solid #777;
+}
+
+.blog-content {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.blog-detailed {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.info {
+    background-color: #d7f8e5;
+    color: #1c7236;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: smaller;
+    color: #777;
+}
